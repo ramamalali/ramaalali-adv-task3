@@ -1,0 +1,91 @@
+@import "../../const/styles.css";
+
+.project {
+	mix-blend-mode: normal;
+    border-radius: 40px;
+    /* opacity: 2.8; */
+    height: 100%;
+}
+
+.project a {
+	text-decoration: none;
+}
+
+ .project:hover {
+	background:   #112355;
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+} 
+
+.project:hover .project-link {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+.project-container {
+	padding: 30px;
+	padding: 30px;
+    border: 1px solid;
+    height: 216px;
+    background-color:  #273c75;
+    border-radius: 41px;
+}
+
+.project-logo {
+	width: 87px;
+    position: relative;
+    left: -40px;
+    bottom: 40px;
+	
+}
+
+.project-logo img {
+	width: 100%;
+	border-radius: 50%
+}
+
+.project-title {
+	font-family: var(--secondary-font);
+    color: #b0bbbe;
+    font-size: 16px;
+    padding-top: -14px;
+    margin-bottom: 1em;
+    font-weight: 700;
+    position: relative;
+    bottom: 35px;
+    right: 9px;
+}
+
+.project-description {
+	color: #acacb4;
+    position: relative;
+    bottom: 36px;
+    right: 12px;
+}
+
+.project-link {
+	display: flex;
+    align-items: center;
+    color: #e4e4e7;
+    font-size: 12px;
+    padding-top: -10px;
+    position: relative;
+    bottom: 19px;
+    left: 66px;
+}
+
+.project-link-icon {
+	padding-left: 5px;
+	font-size: 13px;
+}
+
+.project-link-text {
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+	.project {
+		height: 300px;
+	}
+}

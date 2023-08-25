@@ -1,0 +1,12 @@
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 79px;
+    height: 79px;
+    position: fixed;
+    right: 96px;
+    top: 25px;
+    box-shadow: 2px 7px 25px #cdbf
+}
